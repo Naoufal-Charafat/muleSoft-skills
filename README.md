@@ -145,24 +145,25 @@ for this project including all flows, connectors, and deployment info
 ```
 muleSoft-skills/
 ├── README.md
-├── mulesoft-api-patterns/
-│   ├── SKILL.md                        # Skill definition & instructions
-│   ├── assets/
-│   │   └── mule-base-template/         # Base project template
-│   └── references/
-│       ├── patterns/                   # Per-pattern implementation guides
-│       │   ├── pagination.md
-│       │   ├── batch-operations.md
-│       │   ├── long-running-operations.md
-│       │   └── ...
-│       ├── advanced/
-│       │   └── field-masks.md
-│       └── troubleshooting/            # Known issues & fixes
-│           ├── maven-build-errors.md
-│           ├── validation-module.md
-│           └── bulk-operations.md
-└── mulesoft-documentor/
-    └── SKILL.md                        # Skill definition & instructions
+└── skills/
+    ├── mulesoft-api-patterns/
+    │   ├── SKILL.md                        # Skill definition & instructions
+    │   ├── assets/
+    │   │   └── mule-base-template/         # Base project template
+    │   └── references/
+    │       ├── patterns/                   # Per-pattern implementation guides
+    │       │   ├── pagination.md
+    │       │   ├── batch-operations.md
+    │       │   ├── long-running-operations.md
+    │       │   └── ...
+    │       ├── advanced/
+    │       │   └── field-masks.md
+    │       └── troubleshooting/            # Known issues & fixes
+    │           ├── maven-build-errors.md
+    │           ├── validation-module.md
+    │           └── bulk-operations.md
+    └── mulesoft-documentor/
+        └── SKILL.md                        # Skill definition & instructions
 ```
 
 ---
